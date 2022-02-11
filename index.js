@@ -121,10 +121,7 @@ async function createRepo(user, newrepo)
 	// Send a http request to url and specify a callback that will be called upon its return.
 	return new Promise(function(resolve, reject)
 	{
-		axios(options, data: {
-			user: 'user',
-			name: 'newrepo'
-		  })
+		axios(options)
 		  .then(function (response) {
 			if(response.statusCode == 201)
 			{console.log(chalk.green("Success"));
