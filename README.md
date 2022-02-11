@@ -6,7 +6,7 @@
 
 # Server 
 
-* Screencast Link
+* [Loom Link](https://www.loom.com/share/ed3f27d1f6914b73ad128456c4226d14)
 
 # Concepts
 
