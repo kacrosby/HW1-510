@@ -2,13 +2,13 @@
 
 # Client 
 
-*index.js uploaded to repo 
+* index.js uploaded to repo 
 
 # Server 
 
-*Screencast Link
+* Screencast Link
 
-#Concepts
+# Concepts
 
 1. You can lose the ability to maintain within sessions because it is stateless.  They are also defined by constraints and depend on caching.There are also major secruity risks that come with by it's use of http protocol as well as no implementation limiting rate/throttling. 
 
