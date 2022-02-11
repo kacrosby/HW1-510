@@ -141,7 +141,7 @@ async function createIssue(user, repo, issueName, issueBody)
 	{
 		axios(options)
 		  .then(function (response) {
-			resolve(response.status_code);
+			resolve(response.status);
 		})
 		.catch(function (error) {
 			console.log(chalk.red(error));
@@ -162,7 +162,7 @@ async function enableWikiSupport(user,repo)
 	{
 		axios(options)
 		  .then(function (response) {
-			resolve(response.status_code);
+			resolve(response.status);
 		})
 		.catch(function (error) {
 			console.log(chalk.red(error));
