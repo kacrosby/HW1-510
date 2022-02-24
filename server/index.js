@@ -18,16 +18,17 @@ console.log("random", r);
 let objects = []
 
 app.post('/share', function (req, res) {
-    const ident = r;
+    const code = r;
     const obj = {
-      id: ident,
+      id: code,
       body: req.body
     }
-    objects = objects.concat(obj);
+    
+ objects = objects.concat(obj);
 
-    return res.status(200).json({
+ return res.status(200).json({
         success: true, 
-        link: `http://localhost:${port}/${ident}`  
+        link: `http://localhost:${port}/${code}`  
      })
 });
 
